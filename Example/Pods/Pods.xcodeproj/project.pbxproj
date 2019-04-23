@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A4BBFFD94F176A0386500ED34ADDCE /* ReflexUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40845A3DCFF83F011154C97661818E7C /* ReflexUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24CB43468BCB3FDEBF1749FF13738F58 /* Pods-ReflexUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C07FCBC2D4AF492C97E1C44EB81AA65F /* Pods-ReflexUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36D889AEDD6A5AA6D0649733691F3E2B /* Pods-ReflexUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1142C90962EEA1A830F3A1BF0E37372D /* Pods-ReflexUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55BAD5413650A12427BD6E5A81BDA53B /* Pods-ReflexUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9550AE6731410B87A2F75623FE47D3EC /* Pods-ReflexUI_Tests-dummy.m */; };
+		6038568B643E74080FB1DF809FDA4DE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		6AC070AE61BBE8A93CC5EFAA2D9FE132 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		81313661D69F972CD15F1557FD6EBEB0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5170E3CB29387D7D62F1676E14B8D3EE /* ReplaceMe.swift */; };
+		84C3C27D12CA4E8EA75B889B43FC6276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		AEB46B3D27A339DA876DD3C8147603BC /* Pods-ReflexUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 170B0A8898EFB355915BF68E89734C82 /* Pods-ReflexUI_Example-dummy.m */; };
+		F3C0A9426A4EB5F1E0F6743D29A318DD /* ReflexUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3068D31068F25DD13DD467C45A39495B /* ReflexUI-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		464B103CE6C12F56A006AED08B7E71C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F41D1BEC2CE512219E3121E3A1462D1A;
+			remoteInfo = ReflexUI;
+		};
+		48BC3E857DDDD290DBA31E2FCDF4CD06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 429DF35025048997D774F897EB46F977;
+			remoteInfo = "Pods-ReflexUI_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0730D1CE43304DFDDA879631BA79F0E6 /* ReflexUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ReflexUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		07737538CADA896264EF2DECA7942216 /* Pods_ReflexUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReflexUI_Example.framework; path = "Pods-ReflexUI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09BCAB8604075BF4C1E466579CF7C0E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1054232DE98D70DAD2A9609CB651CA54 /* Pods-ReflexUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReflexUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1142C90962EEA1A830F3A1BF0E37372D /* Pods-ReflexUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReflexUI_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1238E3B4B38507C04879006F69629B4A /* ReflexUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReflexUI-prefix.pch"; sourceTree = "<group>"; };
+		170B0A8898EFB355915BF68E89734C82 /* Pods-ReflexUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReflexUI_Example-dummy.m"; sourceTree = "<group>"; };
+		175582192A5812EF5E760AC26F1CC55F /* Pods_ReflexUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReflexUI_Tests.framework; path = "Pods-ReflexUI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3068D31068F25DD13DD467C45A39495B /* ReflexUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReflexUI-dummy.m"; sourceTree = "<group>"; };
+		40845A3DCFF83F011154C97661818E7C /* ReflexUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReflexUI-umbrella.h"; sourceTree = "<group>"; };
+		46C01FA4239767E28BC553888423AA82 /* ReflexUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReflexUI.modulemap; sourceTree = "<group>"; };
+		4B1B48E612B89062D95149F57CC244F5 /* Pods-ReflexUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReflexUI_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5170E3CB29387D7D62F1676E14B8D3EE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ReflexUI/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		568FECEC1B8FB9BC07C2B4ABC4277EE4 /* ReflexUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReflexUI.xcconfig; sourceTree = "<group>"; };
+		59720DB6B10DBC3148BAD564454BD840 /* Pods-ReflexUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReflexUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5FB2AC96122AF0B45E279EB433194845 /* Pods-ReflexUI_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReflexUI_Example-resources.sh"; sourceTree = "<group>"; };
+		67F9D6E141FAE3C54B1731E9531B37EA /* Pods-ReflexUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReflexUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7DEFA9FD9A20B0327E1D20F811FE4548 /* Pods-ReflexUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReflexUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9550AE6731410B87A2F75623FE47D3EC /* Pods-ReflexUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReflexUI_Tests-dummy.m"; sourceTree = "<group>"; };
+		981D9A93E48E2FF0F643EE6B6F225F93 /* Pods-ReflexUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReflexUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9880E256607BA62F27DDC79D3AA04CED /* Pods-ReflexUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReflexUI_Example.modulemap"; sourceTree = "<group>"; };
+		9C4115A45F83243FF1954D6D8C130046 /* Pods-ReflexUI_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReflexUI_Tests-resources.sh"; sourceTree = "<group>"; };
+		9ECCE2D74F6E6771C26DED1DB6B94303 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A4BF993F91368E819657BFE9D4697731 /* ReflexUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReflexUI.framework; path = ReflexUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3DBCBC0B311E8A9DB63FC5640200195 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8E765AB38F0D8E4C8A60A77438D689 /* Pods-ReflexUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReflexUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C07FCBC2D4AF492C97E1C44EB81AA65F /* Pods-ReflexUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReflexUI_Example-umbrella.h"; sourceTree = "<group>"; };
+		CA9BC04DE8FC8D17F8E8080510283103 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0D5367E592DE210E719F17BBF9FB4EC /* Pods-ReflexUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReflexUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6B4640254736915E7DECE0379745EBF /* Pods-ReflexUI_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReflexUI_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D7B30FAB3D4FA233AB93410F006F929A /* Pods-ReflexUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReflexUI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EC57128A6C86D6977D26C2DD032F28CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F185A4675B67AD8ADF02D0A42EEE714B /* Pods-ReflexUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReflexUI_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A3B53BD1367A54C5C3B278F5C9EA697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6038568B643E74080FB1DF809FDA4DE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A529A4C03DB0E2D50144279FB649F3DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC070AE61BBE8A93CC5EFAA2D9FE132 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7ABCDB34AA9179C27F63343A66F5EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C3C27D12CA4E8EA75B889B43FC6276 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E1F74518819BFDBA8D5197376A72648 /* Pods-ReflexUI_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B3DBCBC0B311E8A9DB63FC5640200195 /* Info.plist */,
+				9880E256607BA62F27DDC79D3AA04CED /* Pods-ReflexUI_Example.modulemap */,
+				BF8E765AB38F0D8E4C8A60A77438D689 /* Pods-ReflexUI_Example-acknowledgements.markdown */,
+				D0D5367E592DE210E719F17BBF9FB4EC /* Pods-ReflexUI_Example-acknowledgements.plist */,
+				170B0A8898EFB355915BF68E89734C82 /* Pods-ReflexUI_Example-dummy.m */,
+				4B1B48E612B89062D95149F57CC244F5 /* Pods-ReflexUI_Example-frameworks.sh */,
+				5FB2AC96122AF0B45E279EB433194845 /* Pods-ReflexUI_Example-resources.sh */,
+				C07FCBC2D4AF492C97E1C44EB81AA65F /* Pods-ReflexUI_Example-umbrella.h */,
+				981D9A93E48E2FF0F643EE6B6F225F93 /* Pods-ReflexUI_Example.debug.xcconfig */,
+				D7B30FAB3D4FA233AB93410F006F929A /* Pods-ReflexUI_Example.release.xcconfig */,
+			);
+			name = "Pods-ReflexUI_Example";
+			path = "Target Support Files/Pods-ReflexUI_Example";
+			sourceTree = "<group>";
+		};
+		68FBB0BD7ADA957BB75327292DC7A8AB /* ReflexUI */ = {
+			isa = PBXGroup;
+			children = (
+				5170E3CB29387D7D62F1676E14B8D3EE /* ReplaceMe.swift */,
+				711BB1ACDA6C6D6A9553A6D3975CB1E5 /* Pod */,
+				C050C4652E53C85FE7E2A6205D38883A /* Support Files */,
+			);
+			name = ReflexUI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		711BB1ACDA6C6D6A9553A6D3975CB1E5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CA9BC04DE8FC8D17F8E8080510283103 /* LICENSE */,
+				9ECCE2D74F6E6771C26DED1DB6B94303 /* README.md */,
+				0730D1CE43304DFDDA879631BA79F0E6 /* ReflexUI.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		71B027A7BB317C406A877BA728073358 /* Pods-ReflexUI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				09BCAB8604075BF4C1E466579CF7C0E3 /* Info.plist */,
+				F185A4675B67AD8ADF02D0A42EEE714B /* Pods-ReflexUI_Tests.modulemap */,
+				59720DB6B10DBC3148BAD564454BD840 /* Pods-ReflexUI_Tests-acknowledgements.markdown */,
+				7DEFA9FD9A20B0327E1D20F811FE4548 /* Pods-ReflexUI_Tests-acknowledgements.plist */,
+				9550AE6731410B87A2F75623FE47D3EC /* Pods-ReflexUI_Tests-dummy.m */,
+				D6B4640254736915E7DECE0379745EBF /* Pods-ReflexUI_Tests-frameworks.sh */,
+				9C4115A45F83243FF1954D6D8C130046 /* Pods-ReflexUI_Tests-resources.sh */,
+				1142C90962EEA1A830F3A1BF0E37372D /* Pods-ReflexUI_Tests-umbrella.h */,
+				1054232DE98D70DAD2A9609CB651CA54 /* Pods-ReflexUI_Tests.debug.xcconfig */,
+				67F9D6E141FAE3C54B1731E9531B37EA /* Pods-ReflexUI_Tests.release.xcconfig */,
+			);
+			name = "Pods-ReflexUI_Tests";
+			path = "Target Support Files/Pods-ReflexUI_Tests";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9D92B0CB82411E2305F4F8E5219C45F8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E1F74518819BFDBA8D5197376A72648 /* Pods-ReflexUI_Example */,
+				71B027A7BB317C406A877BA728073358 /* Pods-ReflexUI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A8C5CCCAAE890727B4ACD33EEEA152A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07737538CADA896264EF2DECA7942216 /* Pods_ReflexUI_Example.framework */,
+				175582192A5812EF5E760AC26F1CC55F /* Pods_ReflexUI_Tests.framework */,
+				A4BF993F91368E819657BFE9D4697731 /* ReflexUI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C050C4652E53C85FE7E2A6205D38883A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC57128A6C86D6977D26C2DD032F28CE /* Info.plist */,
+				46C01FA4239767E28BC553888423AA82 /* ReflexUI.modulemap */,
+				568FECEC1B8FB9BC07C2B4ABC4277EE4 /* ReflexUI.xcconfig */,
+				3068D31068F25DD13DD467C45A39495B /* ReflexUI-dummy.m */,
+				1238E3B4B38507C04879006F69629B4A /* ReflexUI-prefix.pch */,
+				40845A3DCFF83F011154C97661818E7C /* ReflexUI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ReflexUI";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				DE9C2A971C78ABF1F2A81DC3BE40184C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A8C5CCCAAE890727B4ACD33EEEA152A7 /* Products */,
+				9D92B0CB82411E2305F4F8E5219C45F8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE9C2A971C78ABF1F2A81DC3BE40184C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68FBB0BD7ADA957BB75327292DC7A8AB /* ReflexUI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28367AD352F7CCE8C314A0A3498BE762 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CB43468BCB3FDEBF1749FF13738F58 /* Pods-ReflexUI_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD908DD0684290014AF2F98BFA280D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A4BBFFD94F176A0386500ED34ADDCE /* ReflexUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4ECE3B43E9C040411AF0B9D384BCE5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D889AEDD6A5AA6D0649733691F3E2B /* Pods-ReflexUI_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		429DF35025048997D774F897EB46F977 /* Pods-ReflexUI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA94F15B0AE18E6B54452502E4028DB8 /* Build configuration list for PBXNativeTarget "Pods-ReflexUI_Example" */;
+			buildPhases = (
+				28367AD352F7CCE8C314A0A3498BE762 /* Headers */,
+				A1DE650AAFB1B2641DBA97FA75041D34 /* Sources */,
+				5A3B53BD1367A54C5C3B278F5C9EA697 /* Frameworks */,
+				9F10B8D7F9BDD7A5D0F769597221EEF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9B9D6466C3A38C8DB6CF1E815A33E0D /* PBXTargetDependency */,
+			);
+			name = "Pods-ReflexUI_Example";
+			productName = "Pods-ReflexUI_Example";
+			productReference = 07737538CADA896264EF2DECA7942216 /* Pods_ReflexUI_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F01C08411CA73778C05E73F6929F804A /* Pods-ReflexUI_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56E2A27A07536949F981078B1AE88C7F /* Build configuration list for PBXNativeTarget "Pods-ReflexUI_Tests" */;
+			buildPhases = (
+				E4ECE3B43E9C040411AF0B9D384BCE5A /* Headers */,
+				D75A5067B056A6F41AAD8BCFA5B1CDA9 /* Sources */,
+				FC7ABCDB34AA9179C27F63343A66F5EC /* Frameworks */,
+				6DB84ACB6D249C8F1A7C9F7EFE482455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03D57AD422FC08E08224848CC60D2241 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReflexUI_Tests";
+			productName = "Pods-ReflexUI_Tests";
+			productReference = 175582192A5812EF5E760AC26F1CC55F /* Pods_ReflexUI_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F41D1BEC2CE512219E3121E3A1462D1A /* ReflexUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FFDD917089133D858314B4FA2226340 /* Build configuration list for PBXNativeTarget "ReflexUI" */;
+			buildPhases = (
+				9CD908DD0684290014AF2F98BFA280D6 /* Headers */,
+				C6CEE2928EABED5769152362427A87B2 /* Sources */,
+				A529A4C03DB0E2D50144279FB649F3DB /* Frameworks */,
+				8335EA7750E061B22F57BEB07AD558A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReflexUI;
+			productName = ReflexUI;
+			productReference = A4BF993F91368E819657BFE9D4697731 /* ReflexUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A8C5CCCAAE890727B4ACD33EEEA152A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				429DF35025048997D774F897EB46F977 /* Pods-ReflexUI_Example */,
+				F01C08411CA73778C05E73F6929F804A /* Pods-ReflexUI_Tests */,
+				F41D1BEC2CE512219E3121E3A1462D1A /* ReflexUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DB84ACB6D249C8F1A7C9F7EFE482455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8335EA7750E061B22F57BEB07AD558A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F10B8D7F9BDD7A5D0F769597221EEF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1DE650AAFB1B2641DBA97FA75041D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB46B3D27A339DA876DD3C8147603BC /* Pods-ReflexUI_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6CEE2928EABED5769152362427A87B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C0A9426A4EB5F1E0F6743D29A318DD /* ReflexUI-dummy.m in Sources */,
+				81313661D69F972CD15F1557FD6EBEB0 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75A5067B056A6F41AAD8BCFA5B1CDA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BAD5413650A12427BD6E5A81BDA53B /* Pods-ReflexUI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03D57AD422FC08E08224848CC60D2241 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ReflexUI_Example";
+			target = 429DF35025048997D774F897EB46F977 /* Pods-ReflexUI_Example */;
+			targetProxy = 48BC3E857DDDD290DBA31E2FCDF4CD06 /* PBXContainerItemProxy */;
+		};
+		C9B9D6466C3A38C8DB6CF1E815A33E0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReflexUI;
+			target = F41D1BEC2CE512219E3121E3A1462D1A /* ReflexUI */;
+			targetProxy = 464B103CE6C12F56A006AED08B7E71C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26EFECFB049CFFAB15B1CA26D2EB8635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7B30FAB3D4FA233AB93410F006F929A /* Pods-ReflexUI_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReflexUI_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReflexUI_Example/Pods-ReflexUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E5CFE94E93B3B136073D9A0BBAE9FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1054232DE98D70DAD2A9609CB651CA54 /* Pods-ReflexUI_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReflexUI_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReflexUI_Tests/Pods-ReflexUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A7EF66B20AAE134ACA7013AF6B8D9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 568FECEC1B8FB9BC07C2B4ABC4277EE4 /* ReflexUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReflexUI/ReflexUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReflexUI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReflexUI/ReflexUI.modulemap";
+				PRODUCT_MODULE_NAME = ReflexUI;
+				PRODUCT_NAME = ReflexUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70C38E24362A2EA020CF969E821BFBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67F9D6E141FAE3C54B1731E9531B37EA /* Pods-ReflexUI_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReflexUI_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReflexUI_Tests/Pods-ReflexUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75AFE8D3DBDB91D179A7843FEF1E9831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 568FECEC1B8FB9BC07C2B4ABC4277EE4 /* ReflexUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReflexUI/ReflexUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReflexUI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReflexUI/ReflexUI.modulemap";
+				PRODUCT_MODULE_NAME = ReflexUI;
+				PRODUCT_NAME = ReflexUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A2D8ABB6E4BC099AA916C6E74DA83921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BF17B80227EE551582927B0FBE01EF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D9EC1E1484B4FF78045EC03564D94255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 981D9A93E48E2FF0F643EE6B6F225F93 /* Pods-ReflexUI_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReflexUI_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReflexUI_Example/Pods-ReflexUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D8ABB6E4BC099AA916C6E74DA83921 /* Debug */,
+				BF17B80227EE551582927B0FBE01EF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56E2A27A07536949F981078B1AE88C7F /* Build configuration list for PBXNativeTarget "Pods-ReflexUI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5CFE94E93B3B136073D9A0BBAE9FA7 /* Debug */,
+				70C38E24362A2EA020CF969E821BFBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FFDD917089133D858314B4FA2226340 /* Build configuration list for PBXNativeTarget "ReflexUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7EF66B20AAE134ACA7013AF6B8D9CF /* Debug */,
+				75AFE8D3DBDB91D179A7843FEF1E9831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA94F15B0AE18E6B54452502E4028DB8 /* Build configuration list for PBXNativeTarget "Pods-ReflexUI_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9EC1E1484B4FF78045EC03564D94255 /* Debug */,
+				26EFECFB049CFFAB15B1CA26D2EB8635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

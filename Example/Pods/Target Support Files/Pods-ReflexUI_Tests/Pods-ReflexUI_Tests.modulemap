@@ -1,0 +1,6 @@
+framework module Pods_ReflexUI_Tests {
+  umbrella header "Pods-ReflexUI_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

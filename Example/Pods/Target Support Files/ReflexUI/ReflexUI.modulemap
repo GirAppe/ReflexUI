@@ -1,0 +1,6 @@
+framework module ReflexUI {
+  umbrella header "ReflexUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

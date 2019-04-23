@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ReflexUI_Example' do
+  pod 'ReflexUI', :path => '../'
+
+  target 'ReflexUI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

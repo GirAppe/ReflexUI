@@ -1,0 +1,16 @@
+PODS:
+  - ReflexUI (0.1.0)
+
+DEPENDENCIES:
+  - ReflexUI (from `../`)
+
+EXTERNAL SOURCES:
+  ReflexUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ReflexUI: 95dddfb967af59c99cbbb5cc931467dbcaadd67e
+
+PODFILE CHECKSUM: 7387e97239067452c0ee09e6d89d9b74c9f6cb4c
+
+COCOAPODS: 1.5.3
